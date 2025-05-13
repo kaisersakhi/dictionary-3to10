@@ -28,3 +28,5 @@ parted_words = picked_words.each_slice(k).to_a
 parted_words.each_with_index do |words, part_number|
   File.write(OUTPUT_FILES_PREFIX + "_#{part_number + 1}.json", words.to_json)
 end
+
+File.write("part_size.json", {partSize: NUMBER_OF_PARTS}.to_json)
