@@ -4,7 +4,7 @@ INPUT_FILE="words_dictionary.json"
 OUTPUT_FILES_PREFIX="words_part"
 MIN_LENGTH=3
 MAX_LENGTH=11
-NUMBER_OF_PARTS=12
+NUMBER_OF_PARTS=36
 RADOMIZE_WORDS=true
 
 picked_words = []
